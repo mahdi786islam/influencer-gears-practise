@@ -7,12 +7,17 @@
 .display-flex{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+.shared-width{
+    width: 90%;
+    margin: 0 auto;
 }
 
+/* mav section styles */
 .nav-container{
     width: 90%;
     margin: 50px auto;
+    justify-content: space-between;
 
 }
 .nav-button{
@@ -20,4 +25,32 @@
     text-decoration: none;
     list-style: none;
     font-weight: 600;
+}
+
+/* Banner section styles */
+.banner-content h1{
+    font-size: 3.25rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}
+.banner-content p{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+}
+.banner-content button{
+    width: 12rem;
+    height: 2.75rem;
+    padding: 10px 24px 10px 24px;
+    border: none;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-around;
+
 }
