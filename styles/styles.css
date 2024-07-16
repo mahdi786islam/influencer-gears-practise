@@ -18,6 +18,7 @@
     width: 90%;
     margin: 50px auto;
     justify-content: space-between;
+    
 
 }
 .nav-button{
@@ -28,6 +29,11 @@
 }
 
 /* Banner section styles */
+.banner-container{
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
 .banner-content h1{
     font-size: 3.25rem;
     font-weight: 700;
@@ -53,4 +59,24 @@
     align-items: center;
     justify-content: space-around;
 
+}
+.main-image{
+    position: fixed;
+    margin-top: 25px;
+}
+.image-background{
+    position: relative;
+    left: 450px;
+}
+/* sponsor logo section */
+.sponsor-logo-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    padding: 36px 60px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
 }
